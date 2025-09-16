@@ -10,9 +10,9 @@ for i in range(len(text)):
             print("Петя")
         exit()
     if i > 0:
-        p_last = text[i-1][-1].lower()
-        c_first = text[i][0].lower()
-        if p_last != c_first:
+        last = text[i-1][-1].lower()
+        first = text[i][0].lower()
+        if last != first:
             if i % 2 == 0:
                 print("Вася")
             else:
